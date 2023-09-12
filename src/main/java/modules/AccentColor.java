@@ -22,7 +22,7 @@ public class AccentColor {
         int g = Integer.parseInt(hexValue.substring(2, 4), 16);
         int b = Integer.parseInt(hexValue.substring(4, 6), 16);
 
-        r = (int) Math.round(r * (1 - 0.2));
+        r = (int) Math.round(r * (1 - 0.1));
         g = (int) Math.round(g * (1 - 0.1));
         b = (int) Math.round(b * (1 - 0.1));
 
