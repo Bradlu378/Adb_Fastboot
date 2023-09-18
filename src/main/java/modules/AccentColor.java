@@ -26,7 +26,7 @@ public class AccentColor {
         g = (int) Math.round(g * (1 - 0.1));
         b = (int) Math.round(b * (1 - 0.1));
 
-        // Проверяем и корректируем значения RGB при необходимости
+        // Проверяем и корректируем значения RGB
         r = Math.max(0, Math.min(r, 255));
         g = Math.max(0, Math.min(g, 255));
         b = Math.max(0, Math.min(b, 255));
@@ -56,6 +56,6 @@ public class AccentColor {
     }
 
     public String get() {
-        return "#" + hexValue;
+        return "#" + hexValue + "ff";
     }
 }

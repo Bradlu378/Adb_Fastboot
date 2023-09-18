@@ -37,8 +37,9 @@
       <list>
         <option value="Interface" />
         <option value="AnnotationType" />
-        <option value="CSS File" />
         <option value="Class" />
+        <option value="CSS File" />
+        <option value="SCSS File" />
       </list>
     </option>
   </component>
@@ -71,7 +72,7 @@
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;B:/JAVA/idea_projects/Adb_Fastboot&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;SCSS&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -87,6 +88,9 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="B:\JAVA\idea_projects\Adb_Fastboot\src\main\java\af\adb_fastboot" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="B:\JAVA\idea_projects\Adb_Fastboot\Adb_Fastboot\src\main\resources" />
     </key>
   </component>
   <component name="RunManager">
@@ -240,7 +244,10 @@
       <workItem from="1694505530392" duration="861000" />
       <workItem from="1694506615070" duration="394000" />
       <workItem from="1694507011136" duration="1715000" />
-      <workItem from="1694509155022" duration="1342000" />
+      <workItem from="1694509155022" duration="2665000" />
+      <workItem from="1694534742441" duration="3727000" />
+      <workItem from="1694608346954" duration="1522000" />
+      <workItem from="1694687524754" duration="3893000" />
     </task>
     <servers />
   </component>

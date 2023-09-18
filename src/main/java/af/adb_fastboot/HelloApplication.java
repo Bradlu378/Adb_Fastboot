@@ -24,6 +24,7 @@ public class HelloApplication extends Application {
         primaryStage.setTitle("Adb control app");
         //Scene scene = new Scene(root, Color.TRANSPARENT);
         Scene scene = new Scene(root);
+        scene.setFill(Color.rgb(255, 165, 80));
         primaryStage.setScene(scene);
         //primaryStage.initStyle(StageStyle.TRANSPARENT);
         primaryStage.setResizable(false);
@@ -32,12 +33,6 @@ public class HelloApplication extends Application {
 
     public static void main(String[] args) throws IOException {
          launch();
-        long d = System.currentTimeMillis();
-        System.out.println(AccentColor.getHex().get()); // Выводит основной цвет (hex)
-        System.out.println(AccentColor.getHex().dark().get()); // Выводит затемненный цвет (hex)
-        System.out.println(AccentColor.getHex().darker().get());
-        System.out.println(System.currentTimeMillis() - d);
-        System.exit(0);
     }
     @Override
     public void stop(){
